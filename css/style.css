@@ -1,0 +1,358 @@
+/*===Google Fonts===*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Nunito:wght@400;600;700&family=Open+Sans:wght@300;400;600;700&display=swap');
+
+/*=======Site Default CSS========*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+font-family: 'Amatic SC', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container:before,
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-25 {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-33 {
+    width: 33.33%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-40 {
+    width: 40%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-50 {
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-60 {
+    width: 60%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-75 {
+    width: 75%;
+    padding: 0 15px;
+    float: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.section-padding-top {
+    padding-top: 100px;
+}
+
+.section-padding-bottom {
+    padding-bottom: 100px;
+}
+
+
+/*=====01.Header CSS=====*/
+header {
+    background: #7ECCC5;
+}
+
+.main-menu {
+    float: right;
+    padding: 25px 0;
+}
+
+.main-menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.logo img {
+    height: 85px;
+}
+
+/*=====02.Home CSS=====*/
+.home {
+    background-image: url(../images/h1-slide-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.home-content {
+    padding: 200px 0px;
+}
+
+.home-content h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 120px;
+    color: #7ECCC5;
+    line-height: 120px;
+    font-weight: 700;
+	text-shadow: rgb(86, 88, 91) 2px 3px;
+	-webkit-text-shadow: rgb(86, 88, 91) 2px 3px;
+
+}
+
+.home-content h6 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #555555;
+    font-weight: 300;
+    padding: 50px 0;
+    line-height: 30px;
+}
+
+.btn a {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 55px;
+    background-color: #FED872;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.btn a:hover {
+    color: #fff;
+    transition: .3s;
+}
+
+/*=====03.Category Box CSS=====*/
+section.category-all-box {
+    margin-top: -120px;
+}
+
+.col-p-0 .col-33 {
+    padding: 0;
+}
+
+.category-box {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 110px 20px 30px;
+}
+
+.category-box-1 {
+    background-image: url(../images/h1-box-1.jpg);
+}
+
+.category-box-2 {
+    background-image: url(../images/h1-box-2.png);
+}
+
+.category-box-3 {
+    background-image: url(../images/h1-box-3.jpg);
+}
+
+.category-box h3 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 54px;
+    line-height: 59px;
+    color: #fff;
+    text-transform: uppercase;
+	text-shadow: rgb(86, 88, 91) 2px 3px;
+	-webkit-text-shadow: rgb(86, 88, 91) 2px 3px;
+}
+
+.category-box p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+
+/*=====04.Category Item CSS=====*/
+
+section.category-all-item.section-padding-bottom {
+    padding-bottom: 50px;
+}
+
+.category-item {
+    padding: 0 85px 65px 0;
+}
+
+.ctg-title {
+    display: inline-flex;
+    padding: 0 0 40px 0;
+}
+
+.ctg-title img {
+    float: left;
+}
+
+.category-item p {
+    font-family: 'Open Sans', sans-serif;
+    clear: both;
+    font-size: 15px;
+    color: #888888;
+    line-height: 26px;
+}
+
+.ctg-title h4 {
+    font-size: 25px;
+    color: #434343;
+    line-height: 30px;
+    padding: 35px 0 0 10px
+}
+
+/*=====05.Category Button Box CSS=====*/
+.category-btn-box{
+    background-image: url(../images/h1-kids.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.category-btn-box .col-50{
+    float: right;
+    
+}
+.btn-box-item{
+    background-color: #FDCF71;
+    padding: 60px 50px 15px 50px;
+    margin-left: 100px;
+}
+.btn-box-item h1{
+   font-family: 'Amatic SC', cursive;
+    font-size: 54px;
+    line-height: 59px;
+    font-weight: 700;
+    word-spacing: 2.7px;
+    color: #fff;
+    padding-bottom: 15px;
+	text-shadow: rgb(86, 88, 91) 2px 3px;
+	-webkit-text-shadow: rgb(86, 88, 91) 2px 3px;
+}
+
+.btn-box-item p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 23px;
+    color: #313131;
+    padding: 10px 0px;
+}
+.btn-box-item .btn{
+    padding: 20px 0 0 0;
+}
+.btn-box-item .btn a{
+    background-color: #fff;
+    color: #212121;
+}
+.btn-box-item .btn a:hover{
+     background-color: #212121;
+     color: #fff;
+}
+
+/*=====06.Events CSS=====*/
+.section-heading{
+	text-align: center;
+}
+.section-heading h1{
+	color: #434343;
+	font-size: 47px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.section-heading h6{
+	padding: 30px 0 50px 0;
+	color: #888888;
+	font-size: 18px;
+	line-height: 33px;
+}
+.event-bg{
+	height: 250px;
+	width: 100%;
+	position: relative;
+	cursor: pointer;
+	overflow: hidden;
+}
+.event-bg img{
+	height: 100%;
+	width: 100%;
+	transition: all ease .5s;
+}
+.event-bg:hover img{
+	transform: scale(1.1);
+	transition: all ease .5s;
+}
+.event-bg:hover .date{
+	background: #212121;
+	color: #fff;
+	transition: all ease .5s;
+}
+.event-bg .date{
+	background-color: #FCCE71;
+	padding: 20px;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 20px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+.event-box h4{
+	font-size: 25px;
+	line-height: 35px;
+	color: #434343;
+	padding: 10px 0;
+	border-bottom: 1px solid #dadada;
+	margin-bottom: 10px;
+}
+.event-box li{
+	list-style: none;
+	color: gray;
+	line-height: 30px;
+	
+}
